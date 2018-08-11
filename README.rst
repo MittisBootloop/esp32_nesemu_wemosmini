@@ -15,7 +15,7 @@ Compiling
 ---------
 
 You can compile this code with espressifs esp-idf (ESP32) or you can download a precompiled version here:
-	jwhdjkahdfjahsdhasdjknhasdjnhjasjkdklajsdjklasnd
+	https://drive.google.com/open?id=1vhh_dH3Y5HFa4yqkVhevmMNTjaeFxtNw
 
 
 Display
@@ -41,8 +41,6 @@ the SPI controller using DMA is better, but was left out due to this being a pro
 
 Controller
 ----------
-
-To control the NES, connect a Playstation 1 or 2 controller as such:
 
     ======  =====
     Button	GPIO
