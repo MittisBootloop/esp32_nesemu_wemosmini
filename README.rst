@@ -42,8 +42,9 @@ the SPI controller using DMA is better, but was left out due to this being a pro
 Controller
 ----------
 
+
     | Button | GPIO |
-	| ------ | ---- |
+	| ---    | ---  |
     |	UP	 |	34	|
 	|  DOWN  |	33	|
 	|  RIGHT |  32  |
@@ -55,6 +56,7 @@ Controller
 	| ON/OFF |  12  |
 	|  MENU	 |  16  |
 
+	
 Connect also 3.3V to the Buttons
 
 Sound
