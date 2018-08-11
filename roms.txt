@@ -1,0 +1,55 @@
+No.	Icon Name
+1.	$	YourRom1
+2.	%	Your Rom 2
+3.	"	Your-Rom, 3
+4.	=	4
+5.	+	5
+6.	}	6
+7.	{	7
+8.	;	8
+9.	}	9
+10.	}	10
+*#*
+11.	/	11
+12.	;	12
+13.	;	13
+14.	;	14
+
+
+
+#	Don't change the Layout, otherwise the Menu won't show up
+#	in the right form or the whole emulator might crash!!!
+#	If you flash, for example, only to Rom-Partition 2, 
+#	you'll have to give Rom1 in roms.txt anyhow an Name (a place-maker)
+#	otherwise the menu couldn't load the right partition.
+#	Don't erase this characters "*#*" or the emulator will definetly
+#	crash...they show the emulator where the file ends
+#	To change the amount of Roms shown in the menu, move the characters
+#	to another line (in this example menu will show 10 Roms)
+#	To insert a new Rom in the Menu start a new Line, and write in the
+#	next Number followed by a "." + Tabulator, than choose an Icon-Character
+# 	(List below) + Tabulator, and finaly the Name. For example:
+#		99.	;	my Favourite Rom
+
+#	The menu will display the Alphabet (A-z capital & lowercas)
+# 	Numbers 0-9 and  ? ! . , ( ) -
+# 	Icons: 	$ -> Mario		% -> Luigi		" -> MarioTanuki
+#			; -> Coin		} -> ?-Box		= -> Link1
+#			+ -> Link2		{ -> Pacman		/ -> Megaman
+
+#		Flash the Roms to this Adresses
+#	No.		  Adress 		Size(up to...KB)	
+#	rom01 	  0x69000			100
+#	rom02	  0x82000			260
+#	rom03	  0xc3000			388
+#	rom04	 0x124000			132
+#	rom05    0x145000			260
+#	rom06	 0x186000			100
+#	rom07	 0x19f000			100
+#	rom08	 0x1b8000			100
+#	rom09	 0x1d1000			772
+#	rom10	 0x292000			516
+#	rom11	 0x313000			296
+#	rom12	 0x35d000			260
+#	rom13	 0x39e000			260
+#	rom14	 0x3df000			132
