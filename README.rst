@@ -3,7 +3,9 @@ ESP32-NESEMU, a Nintendo Entertainment System emulator for the ESP32
 
 This is the quick and dirty port of Nofrendo, a Nintendo Entertainment System emulator (original by Espressif, https://github.com/espressif/esp32-nesemu).
 I've added (even more dirty) multi Rom support and a little Menu with sound-, fullscreen- and brightness-settings. Fullscreen can cause graphical
-glitches and it still lacks sound.
+glitches and it has bad sound.
+
+ESP32+Display+Battery in a NES Controller: https://youtu.be/-xrElh8Uz_s
 
 Warning
 -------
