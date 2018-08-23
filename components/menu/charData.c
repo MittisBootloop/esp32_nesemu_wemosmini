@@ -1,5 +1,4 @@
 #include <esp_system.h>
-#include "charData.h"
 
 bool characters[70][7][6]=	{
 /*A*/			{{0,0,1,1,0,0},

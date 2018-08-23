@@ -19,6 +19,7 @@ Compiling
 You can compile this code with espressifs esp-idf (ESP32) or you can download a precompiled version here:
 	https://drive.google.com/open?id=1vhh_dH3Y5HFa4yqkVhevmMNTjaeFxtNw
 
+(I've compiled it with the idf version: v3.2-dev-39-gaaf12390)
 
 Display
 -------
